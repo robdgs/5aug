@@ -1,0 +1,38 @@
+.AdviceCard {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #6b98ba;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.138);
+    color: #31323e;
+    font-weight: bolder;
+}
+
+.MainText {
+    text-align: center;
+    text-shadow: 0 0 4px #2e293536;
+}
+
+.btn-change {
+    width: 3rem;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 100%;
+    border: 0;
+    background-color: #4c6c84;
+    position: relative;
+    top: 4rem;
+}
+
+.Advice_number {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #423d49;
+}
